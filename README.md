@@ -7,10 +7,12 @@ For Alzero Web School Git Course
 - tow
 - three
 
-'''
+Some basic Git commands are:
+```
 git status
 git add
 git commit
-'''
+```
+
  
 [gitHub](https://github.com/)
