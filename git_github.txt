@@ -1,0 +1,107 @@
+git clone  url
+
+"working directory" > git add > "staging area" >
+ git commit > "local repo" > git push "remote repo" > git fetch
+ > "local repo" > git checkout, git merge > "working area"
+
+git branch 
+git remote -v  
+
+git status : show file in your branch
+
+git add :name :name
+git add * :add all
+
+remov after add : 
+ git reset head :name
+
+git commit -m "text here" 
+
+git push origin main //finsh and change files in github
+
+
+get file from gitHub to local repo:
+git pull origin
+
+*********************
+git config --list
+git config -l
+
+git help config
+
+λ git config --global user.email
+λ git config --global user.email "newEmail@gg.com"
+
+user.name
+
+
+key:
+λ ssh-keygen -t rsa -b 4096 -C "kasem200094@gmail.com"
+pass: in12in12
+
+cat : open file content
+
+cat C:\Users\HP/.ssh/id_rsa.pub : open key file
+
+********
+
+-Create folder > inside folder :
+
+git init : make folder as repo , a .git folder created by default (be hidden)
+
+touch : create new file
+
+touch index.html
+
+create repo on github 
+
+git add *
+git commit -m "any"
+
+git remote add origin git@github.com:QasemMh/Course-1.git
+                                     userName  repoName .git
+
+git push -u origin master
+                    branch name(main)
+
+*****
+alias : 
+
+git status >> git st 
+
+git   config   --global  alias.st   status
+                        shortHand - the original word
+>> git st 
+or git status 
+
+git config --global --edit >> 
+[alias]
+st = status
+br = branch
+
+//google: git alais list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
