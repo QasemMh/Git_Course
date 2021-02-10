@@ -81,7 +81,7 @@ br = branch
 
 //google: git alais list
 
-
+****
 add branch:
 
 git branch name
@@ -101,51 +101,13 @@ git branch -m newName
 add new branch, then merge with old branch?
 git checkout oldBranch //switch to oldBranch
 git merge NewBranch
+*****
+
+git stash //hide
+git stash list
+git stash pop // visible
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
