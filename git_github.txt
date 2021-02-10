@@ -82,6 +82,50 @@ br = branch
 //google: git alais list
 
 
+add branch:
+
+git branch name
+
+switch to new branch:
+git checkout Name
+
+delete beanch:
+git checkout -d Name
+
+add branch and switch to it:
+hit checkout -b Name
+
+change name of branch:
+git branch -m newName
+
+add new branch, then merge with old branch?
+git checkout oldBranch //switch to oldBranch
+git merge NewBranch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
