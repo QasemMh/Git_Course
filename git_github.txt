@@ -93,7 +93,7 @@ delete beanch:
 git checkout -d Name
 
 add branch and switch to it:
-hit checkout -b Name
+git checkout -b Name
 
 change name of branch:
 git branch -m newName
@@ -105,9 +105,46 @@ git merge NewBranch
 
 git stash //hide
 git stash list
-git stash pop // visible
+git stash pop // visible, return last stash
+git stash apply // visible and stay in stash
+git stash save "any message"
+git stash pop/applay stash@{0}
+git stash drop stash@{0}
+git stash show
+git stash show stash@{0}
+git stash clear
+****
+
+git restore --staged FileName
+git restore --staged *
+
+git clean -n //show file would remove
+git add nameFile
+git clean -f //remove
+
+git log
+
+remove commit:
+
+git reset --hard CommitID (old commit) //change head
+git push origin main --force
+**
+ignore file :https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+touch .gitignore
+
+write inside .gitignore:
+*.log   // ignore all file .log
+!vip.log  // allow this file name
+
+FoliderName/   //ignore this folider
+
+text.txt //ignore 
 
 
+file ignore, how add this file? :
 
-
- 
+git add -f NameFile
+||
+git add -force NameFile
+****
